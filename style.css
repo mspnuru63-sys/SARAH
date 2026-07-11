@@ -1,0 +1,53 @@
+body{
+    background: url("images (48).jpeg") center/cover;
+    
+    height: 150vh;
+    
+    
+}
+h1{
+    color: black;
+    text-align: center;
+
+
+}
+.lien-album{
+    text-decoration: none;
+    position: relative;
+    left: calc(50% - 100px);
+    top: 200px;
+    font-size: 30px;
+    text-justify: center;
+    color: white;
+    background: rgba(218, 159, 168, 0.808);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+}
+.image{
+  /* Cette découpe complexe dessine la forme du chien (exemple simplifié) */
+  clip-path: path("M 10 130 C 20 100, 50 100, 60 130 S 100 150, 110 130 M 150 130 C 140 100, 110 100, 100 130 S 60 150, 50 130 ...");
+  width: 100%;
+  width: 500px;
+  border-radius: 50%;
+  height: 500px;
+  object-fit: cover;
+  position: relative;
+  left: 15%;
+  animation: rotation 50s ease infinite forwards;
+  box-shadow: 1px 1px 10px black;
+
+}
+.texte-maya{
+    font-size: 20px;
+    font-style: oblique;
+    margin-bottom: 100px;
+    position:relative;
+    left: calc(50% - 590px);
+    text-align: center;
+}
+@keyframes rotation{
+    from{ transform: rotate(0);}
+    to{ transform: rotate(360deg);}
+}
