@@ -1,7 +1,7 @@
-body{
+body, html{
     background: url("images/images (48).jpeg") center/cover;
-    
-    height: 150vh;
+    overflow-x: hidden;
+    height: 100vh;
     
     
 }
@@ -14,8 +14,8 @@ h1{
 .lien-album{
     text-decoration: none;
     position: relative;
-    left: calc(50% - 100px);
-    top: 200px;
+    left: 25%;
+    top: 400px;
     font-size: 30px;
     text-justify: center;
     color: white;
@@ -24,14 +24,15 @@ h1{
     border: 1px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     padding: 20px;
+    font-weight: bolder;
 }
 .image{
   /* Cette découpe complexe dessine la forme du chien (exemple simplifié) */
   clip-path: path("M 10 130 C 20 100, 50 100, 60 130 S 100 150, 110 130 M 150 130 C 140 100, 110 100, 100 130 S 60 150, 50 130 ...");
   width: 100%;
-  width: 500px;
+  width: 300px;
   border-radius: 50%;
-  height: 500px;
+  height: 300px;
   object-fit: cover;
   position: relative;
   left: 15%;
@@ -42,12 +43,28 @@ h1{
 .texte-maya{
     font-size: 20px;
     font-style: oblique;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     position:relative;
-    left: calc(50% - 590px);
+    /* left: 40px; */
     text-align: center;
+    color: rgb(197, 193, 193)smoke;
 }
+
+.flou{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.253));
+    position: absolute;
+    top: 0;
+    left:0;
+    overflow-y: hidden;
+}
+
+
+
+
 @keyframes rotation{
     from{ transform: rotate(0);}
     to{ transform: rotate(360deg);}
 }
+
