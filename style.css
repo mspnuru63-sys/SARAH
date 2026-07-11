@@ -47,17 +47,9 @@ h1{
     position:relative;
     /* left: 40px; */
     text-align: center;
-    color: rgb(197, 193, 193)smoke;
+    color: rgb(165, 162, 162)smoke;
 }
 
-.flou{
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left:0;
-    overflow-y: hidden;
-}
 
 
 
