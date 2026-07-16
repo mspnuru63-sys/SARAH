@@ -7,7 +7,7 @@
 body, html{
     background: url("images/images (48).jpeg") center/cover;
     overflow-x: hidden;
-    height: 100vh;
+    min-height: 100vh;
     padding: 1px;
     
     
@@ -123,6 +123,7 @@ img{
     width: 100vw;
     height: 300px;
     position: relative;
+    margin-bottom: 10px;
 
 }
 .titre img{
@@ -191,7 +192,7 @@ img{
 
 .lightbox img{
     width:100vw;
-    height:400px;
+    height:500px;
     border-radius:10px;
     background-position: center;
     transition: 2s;
