@@ -5,6 +5,13 @@ body, html{
     
     
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1{
     color: black;
     text-align: center;
@@ -86,7 +93,9 @@ img{
     object-fit: cover;
 }
 
-    
+.album{
+    display: flex;
+}    
 
 
 
@@ -95,3 +104,42 @@ img{
     to{ transform: rotate(360deg);}
 }
 
+.photo{
+    width:200px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.photo:hover{
+    transform:scale(1.05);
+}
+
+/* Fenêtre plein écran */
+.lightbox{
+    display:none;
+    position:fixed;
+    z-index:9999;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    backdrop-filter: blur(10px);
+
+    justify-content:center;
+    align-items:center;
+}
+
+.lightbox img{
+    max-width:90%;
+    max-height:90%;
+    border-radius:10px;
+}
+
+.close{
+    position:absolute;
+    top:20px;
+    right:30px;
+    color:white;
+    font-size:40px;
+    cursor:pointer;
+}
