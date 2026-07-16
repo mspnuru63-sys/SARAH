@@ -12,6 +12,24 @@ body, html{
     
 }
 
+.Lien-retour{
+    width: 50px;
+    height: 50px;
+    background:black;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px black;
+    right: 0;
+    
+   
+    
+}
 
 h1{
     color: black;
@@ -241,7 +259,7 @@ img{
 .boite6{
     width: 200px;
     height: 200px;
-    background: url("images/IMG_7857.JPG") center/cover;
+    background: url("images/TKTE0755.JPG") center/cover;
     position: relative;
 
 }
