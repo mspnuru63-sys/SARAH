@@ -345,7 +345,7 @@ img{
     border-radius:5px;
     background:
         linear-gradient(white, white) padding-box,
-        linear-gradient(90deg,#00bfff,#8a2be2,#00ff7f,#ff4500,#00bfff) border-box;
+        linear-gradient(90deg,#00bfff,#8a2be2,#06c063,#00bfff) border-box;
 
     background-size:100% 100%, 300% 100%;
     animation:borderGradient 5s linear infinite;
