@@ -227,14 +227,14 @@ img{
 .boite4{
     width: 200px;
     height: 400px;
-    background: url("images/IMG_7857.JPG") center/cover;
+    background: url("images/IMG_8985.JPG") center/cover;
     position: relative;
 
 }
 .boite5{
     width: 200px;
     height: 200px;
-    background: url("images/IMG_7857.JPG") center/cover;
+    background: url("images/IMG_3983.JPG") center/cover;
     position: relative;
 
 }
@@ -274,7 +274,7 @@ img{
 .boite4 p,.boite4 h3{
     color: white;
     position: relative;
-    top: 150px;
+    top: 320px;
     left: 10px;
     font-size: 12px;
 
