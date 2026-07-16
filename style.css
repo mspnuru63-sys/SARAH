@@ -211,7 +211,7 @@ img{
     
 .boite2{
     min-width: 410px;
-    height: 300px;
+    height: 400px;
     background: url("images/IMG_8517.JPG") center/cover;
     position: relative;
     background-repeat: no-repeat;
@@ -251,6 +251,7 @@ img{
     position: relative;
     top: 300px;
     left: 10px;
+    font-size: 12px;
 
 }
 
@@ -259,30 +260,40 @@ img{
     position: relative;
     top: 220px;
     left: 10px;
+    font-size: 12px;
+
 }
 .boite3 p,.boite3 h3{
     color: white;
     position: relative;
     top: 320px;
     left: 10px;
+    font-size: 12px;
+
 }
 .boite4 p,.boite4 h3{
     color: white;
     position: relative;
     top: 150px;
     left: 10px;
+    font-size: 12px;
+
 }
 .boite5 p,.boite5 h3{
     color: white;
     position: relative;
     top: 150px;
     left: 10px;
+    font-size: 12px;
+
 }
 .boite6 p,.boite6 h3{
     color: white;
     position: relative;
     top: 150px;
     left: 10px;
+    font-size: 12px;
+
 }
 
 /* zoom d'image animation ===================================*/
